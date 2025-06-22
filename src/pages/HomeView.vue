@@ -1,5 +1,8 @@
 <template>
   <Navbar />
+  <div class="q-pa-md text-center">
+    <h4 class="text-h5 text-primary">Selamat Datang di Toklep - TOKO LAPTOP KAMI</h4>
+  </div>
   <div class="q-pa-md row wrap justify-center">
     <LaptopCard
       v-for="(laptop, index) in laptops"
@@ -37,4 +40,3 @@ export default {
   }
 }
 </script>
-
