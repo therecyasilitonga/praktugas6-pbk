@@ -7,7 +7,7 @@
       </li>
     </ul>
     <h6>Total: Rp {{ total.toLocaleString() }}</h6>
-    <q-btn label="Kembali ke Home" color="secondary" @click="goHome" />
+    <q-btn label="Buat Pesanan" color="secondary" @click="goHome" />
   </div>
 </template>
 
